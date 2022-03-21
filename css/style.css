@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 header {
@@ -43,9 +42,21 @@ main {
 }
 
 .article {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .color {
     background-color: yellow;
 }
+
+section {
+    margin: 10px;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+}
+
+tr:nth-child(even) {background-color: aqua;}
