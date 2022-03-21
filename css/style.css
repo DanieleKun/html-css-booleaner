@@ -17,6 +17,10 @@ header {
     margin-left: 5px;
 }
 
+section.logo {
+    margin-top: 0;
+}
+
 #boolean {
     color: deepskyblue;
 }
@@ -56,13 +60,18 @@ section {
 
 table { 
     border-spacing: 0;
-    
-    
+
 }
+
+td {
+    width: 20%;
+}
+
 
 th {
     background-color: dodgerblue;
     color: white;
+    text-align: left;
     
 }
 
