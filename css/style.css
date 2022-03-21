@@ -54,9 +54,14 @@ section {
     margin: 10px;
 }
 
+table {
+    border: 0;
+}
+
 th {
     background-color: dodgerblue;
     color: white;
+    
 }
 
 tr:nth-child(even) {background-color: aqua;}
@@ -66,7 +71,7 @@ tr:nth-child(even) {background-color: aqua;}
     margin: 5px;
 }
 
-.footimg1 {
+.footgraph {
     width: 300px;
     height: 200px;
     background-image:url(../img/graph.jpg);
@@ -75,7 +80,7 @@ tr:nth-child(even) {background-color: aqua;}
     margin: 5px;
 }
 
-.footimg2 {
+.footmonitor {
     width: 300px;
     height: 200px;
     background-image:url(../img/monitor.jpg);
