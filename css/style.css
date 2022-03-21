@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
     height: 60px;
     background-image: url(../img/pattern.png);
     background-size: contain;
-    background-color: dodgerblue;  
+    background-color: dodgerblue;
 }
 
 .logo img {
@@ -28,4 +28,24 @@ header {
 
 #data {
     font-size: 12px;
+}
+
+main {
+    margin-top: 10px;
+}
+
+.foto {
+    display: inline-block;
+}
+
+.description {
+    font-size: 12px;
+}
+
+.article {
+    margin-top: 10px;
+}
+
+.color {
+    background-color: yellow;
 }
