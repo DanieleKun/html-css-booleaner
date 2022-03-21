@@ -60,3 +60,27 @@ th {
 }
 
 tr:nth-child(even) {background-color: aqua;}
+
+.foot {
+    color: grey;
+    margin: 5px;
+}
+
+.footimg1 {
+    width: 300px;
+    height: 200px;
+    background-image:url(../img/graph.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
+.footimg2 {
+    width: 300px;
+    height: 200px;
+    background-image:url(../img/monitor.jpg);
+    background-size: cover;
+    color: white;
+    margin: 5px;
+}
+
